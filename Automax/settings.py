@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles', 
     'localflavor',
     'crispy_forms',
+    'crispy_bootstrap4',
     'django_filters',
     'main',
     'users',
@@ -71,7 +72,7 @@ ROOT_URLCONF = 'Automax.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -151,7 +152,9 @@ MEDIA_URL = '/media/'
 
 
 # Django Crispy Form Settings
-CRISPY_TEMPLATE_PACK = 'bootstrap4' 
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+
 
 # Email Settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
