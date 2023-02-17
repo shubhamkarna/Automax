@@ -14,3 +14,6 @@ A car inventory system which provides you information on second hand cars.
 
 
 ![AutoMax   2008 BMW M5 Listing and 17 more pages - Personal - Microsoft​ Edge 2_17_2023 12_20_23 PM](https://user-images.githubusercontent.com/125014852/219567750-195e9868-9b69-4e05-8400-dc06b6cf5e25.png)
+
+
+![Automax   Home and 20 more pages - Personal - Microsoft​ Edge 2_17_2023 12_21_50 PM](https://user-images.githubusercontent.com/125014852/219567995-306900ba-e1c2-4493-b060-3f9a17b6cf84.png)
